@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", serif; */
+    font-family: sans-serif;
+
+
+}
+
+:root {
+    --spacial-color: rgb(255, 217, 0);
+    --secondary-color: rgb(97, 97, 97);
+    --primary-color: blue;
+    --danger-color: red;
+    --black-color: black;
+    --simple--color: white;
+
+
+}
+
+.contact {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-style: oblique;
+    letter-spacing: 3px;
+    align-items: center;
+    height: 50px;
+}
+
+.contact .call {
+    margin-left: 60px;
+
+}
+
+.contact .login {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-left: 150px;
+}
+
+.contact .login span a:nth-child(1):hover {}
+
+.contact .login span a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.contact button {
+    margin-right: 80px;
+    background-color: var(--spacial-color);
+    font-family: "Poppins", serif;
+    /* transition: 400ms; */
+    height: 50px;
+    width: 160px;
+
+}
+
+.contact button a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 22px;
+    transition: 300ms;
+}
+
+.contact button:hover {
+    background-color: transparent;
+    border: 1px solid yellow;
+    border-bottom: 4px solid yellow;
+
+}
+
+.contact button:hover a {
+
+    color: var(--spacial-color);
+}
+
+header {
+    height: 110px;
+    background-color: var(--simple--color);
+
+}
+
+header .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    top: 20px;
+    left: 120px;
+
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 70px;
+}
+
+header .logo hr {
+    width: 100px;
+
+}
+
+header .logo .simply {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+header .logo .simply span {
+    font-size: 30px;
+}
+
+header .logo .simply .construction {
+    font-size: 20px;
+
+}
+
+.heading .home nav a:hover {
+    color: var(--spacial-color);
+
+}
+.heading .home nav a ul li{
+    list-style-type: none;
+    color: var(--black-color);
+    padding: 16px;
+    border-bottom: 0.5px solid gray;
+
+}
+.heading .home nav a ul li:hover{
+    color: var(--spacial-color);
+}
+
+.heading .home nav a ul{
+    background-color: var(--simple--color);
+    /* background-color: var(--secondary-color); */
+position: absolute;
+width: 200px;
+text-align: center;
+left: 50%;
+visibility: hidden;
+top: 100px;
+z-index: 1;
+transform: translateX(-50%);
+}
+.heading .home nav a:nth-child(4):hover ul{
+top: 65px;
+visibility: visible;
+transition:all 300ms ;
+
+}
+.heading .home nav a:nth-child(5):hover ul{
+top: 65px;
+visibility: visible;
+transition:all 300ms ;
+
+}
+.heading .home nav a:nth-child(6):hover ul{
+top: 65px;
+visibility: visible;
+transition:all 300ms ;
+
+}
+.heading .home nav a{
+position: relative;
+
+}
+.heading .home nav a {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+
+.heading .search-bar {
+    position: relative;
+    top: 20px;
+    right: 50px;
+
+}
+
+.heading .search-bar input {
+font-size: 20px;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+.heading .search-bar {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.main-header {
+    height: 700px;
+    background-image: url(images/img\ 14.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 34% 100%, 0 84%);
+    /* outline: 5px solid yellow; */
+
+
+    filter: drop-shadow(0 5px 0  yellow);
+}
+
+.main-header .the-build {
+    text-align: center;
+    left: 30%;
+    position: absolute;
+    top: 60%;
+    color: var(--spacial-color);
+    width: 45%;
+
+}
+
+.main-header h2 {
+    color: var(--simple--color);
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-header .the-build h1 {
+    color: var(--simple--color);
+    font-size: 45px;
+
+}
+
+.main-header .the-build p {
+    color: var(--simple--color);
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+
+}
+
+.main-header .the-build a:hover {
+
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: var(--spacial-color);
+
+}
+
+.main-header .the-build a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--spacial-color);
+    color: var(--black-color);
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    position: relative;
+    transition: 400ms;
+    top: 50px;
+}
+
+.rated {
+    display: flex;
+}
+
+.rated .top-rated p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--secondary-color);
+}
+.rated .top-rated h1:hover{
+    color: var(--spacial-color);
+    
+}
+.rated .top-rated h1{
+
+
+    transition: 400ms;
+}
+.rated .top-rated {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.rated .images img {
+    height: 50px;
+}
+
+.quality {
+    display: flex;
+    padding-top: 6%;
+    background-color: rgba(214, 214, 214, 0.445);
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+main .about .main-card{
+justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+main .about {
+    margin-top: 110px;
+
+}
+.about .title-1 h1 span{
+color: var(--spacial-color);
+
+}
+main .about .title-1 {
+    text-align: center;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+}
+
+main .about .title-1 p {
+    margin-top: 20px;
+
+    letter-spacing: 0.5px;
+    color: var(--secondary-color);
+}
+
+.about .card {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 10px;
+    background-color: rgba(214, 214, 214, 0.233);
+margin-top: 100px;
+    width: 250px;
+
+}
+
+.about .card span {
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.about .card p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    color: var(--secondary-color);
+}
+
+.about .card h3,
+p {
+    margin-left: 16px;
+
+}
