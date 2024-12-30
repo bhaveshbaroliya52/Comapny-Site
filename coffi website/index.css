@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Poppins", serif;
+}
+:root{
+
+    --spacial-color: rgb(255, 217, 0);
+    --secondary-color: rgb(97, 97, 97);
+    --primary-color: blue;
+    --danger-color: red;
+    --black-color: black;
+    --simple--color: white;
+
+}
+
+header .heading{
+display: flex;
+justify-content: space-around;
+background-color: black;
+position: fixed;
+align-items: center;
+height: 90px;
+width: 100%;
+color: var(--simple--color);
+top: 0;
+left: 0;
+}
+.heading .logo img{
+height: 100px;
+
+}
+.heading .menu a{
+margin-left: 24px;
+font-size: 20px;
+text-decoration: none;
+color: var(--simple--color);
+
+
+}
+.heading .search-bar  {
+ font-size: 24px;
+ display: flex;
+ flex-direction: row;
+gap: 40px;
+}
+
+main {
+    height: 500px;
+color: black;
+background-image: url(https://www.selfrezcoffee.com/pages/subscribe-save);
+margin-top: 90px;
+
+}
+
+
