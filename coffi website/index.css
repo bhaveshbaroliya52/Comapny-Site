@@ -10,8 +10,7 @@
   --black-color: black;
   --simple--color: white;
 }
-body{
-
+body {
   background-color: black;
 }
 
@@ -36,39 +35,35 @@ header .heading {
   text-decoration: none;
   color: var(--simple--color);
 }
-.heading .search-bar i:hover{
-color: var(--spacial-color);
-
+.heading .search-bar i:hover {
+  color: var(--spacial-color);
 }
 .heading .search-bar {
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
-main .fresh-coffee{
-
+main .fresh-coffee {
   background-color: aqua;
   background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqmvQHVFJVt-s3-HgOREHzzhHL-tCk0Jrey5P3rYuaq-MVW8lU);
-width: 100%;
-height: 550px;
+  width: 100%;
+  height: 550px;
 
-background-repeat: no-repeat;
-} 
-
-main .fresh-coffee .title{
-
-position: relative;
-top: 30%;
-left: 80px;
-width: 40%;
+  background-repeat: no-repeat;
 }
 
+main .fresh-coffee .title {
+  position: relative;
+  top: 30%;
+  left: 80px;
+  width: 40%;
+}
 
 .fresh-coffee .title a {
-    padding: 10px;
-    text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
   font-size: 24px;
   background-color: var(--spacial-color);
   color: black;
@@ -89,148 +84,138 @@ width: 40%;
   margin-bottom: 40px;
 }
 
-main .content{
-margin-top: 50px;
-
+main .content {
+  margin-top: 50px;
 }
-main .content h1{
+main .content h1 {
   text-align: center;
   font-size: 38px;
   color: var(--simple--color);
-
 }
-.content h1 span{
-color: var(--spacial-color);
-margin-right: 10px;
-
+.content h1 span {
+  color: var(--spacial-color);
+  margin-right: 10px;
 }
-.content .about-us{
+.content .about-us {
   display: flex;
   margin: 50px 10%;
 }
-.content .about-us .coffee img{
-height: 420px;
-width: 500px;
-object-fit: cover;
-
-
+.content .about-us .coffee img {
+  height: 420px;
+  width: 500px;
+  object-fit: cover;
 }
-.content .about-us .coffee-1 h1{
-
+.content .about-us .coffee-1 h1 {
   font-size: 30px;
   margin-top: 10px;
 }
-.content .about-us .coffee-1 p{
-margin-top: 20px;
-
+.content .about-us .coffee-1 p {
+  margin-top: 20px;
 }
-.content .about-us .coffee-1{
+.content .about-us .coffee-1 {
   background-color: rgb(2, 9, 19);
-font-size: 24px;
-color:  white;
-letter-spacing: 1px;
-word-spacing: 2px;
-padding: 20px;
-
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 20px;
 }
-.content .about-us .coffee-1 button a{
-
+.content .about-us .coffee-1 button a {
   text-decoration: none;
   font-size: 24px;
-color: white;
-
+  color: white;
 }
-.content .about-us .coffee-1 button{
+.content .about-us .coffee-1 button {
   background-color: var(--spacial-color);
   padding: 10px 18px;
   border-radius: 4px;
   margin-top: 30px;
   transition: 300ms;
 }
-.content .about-us .coffee-1 button:hover{
-background-color:transparent;
-border: 1px solid orange;
-box-shadow: rgba(235, 153, 3, 0.25) 0px 13px 27px -5px, rgba(255, 189, 6, 0.3) 0px 8px 16px -8px;
+.content .about-us .coffee-1 button:hover {
+  background-color: transparent;
+  border: 1px solid orange;
+  box-shadow: rgba(235, 153, 3, 0.25) 0px 13px 27px -5px,
+    rgba(255, 189, 6, 0.3) 0px 8px 16px -8px;
 }
 
-
-main h1{
-color: white;
+main h1 {
+  color: white;
   text-align: center;
   font-size: 40px;
 }
-main .our-menu{
-margin: 0 8%;
-display: flex;
-gap: 25px;
-flex-wrap: wrap;
-margin-top: 50px;
-margin-bottom: 60px;
-
-
-
+main .our-menu {
+  margin: 0 8%;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
- h1 span{
+h1 span {
   color: var(--spacial-color);
   margin-left: 15px;
 }
 
-.our-menu .cart{
-display: flex;
-flex-direction:column;
-padding: 30px;
-border:  0.1px solid rgba(255, 255, 255, 0.247);
-justify-content: center;
-align-items: center;
-border-radius: 6px;
-height: 200px;
-width: 200px;
-transition: 300ms;
-
+.our-menu .cart {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 0.1px solid rgba(255, 255, 255, 0.247);
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+  transition: 300ms;
 }
-.our-menu .cart:hover{
+.our-menu .cart:hover {
   transform: scale(0.9);
-  box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px, rgba(247, 115, 7, 0.23) 0px 6px 6px;
-  box-shadow: rgba(243, 110, 2, 0.25) 0px 30px 60px 12px inset, rgba(255, 95, 2, 0.3) 12px 18px 50px 10px inset;
+  box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px,
+    rgba(247, 115, 7, 0.23) 0px 6px 6px;
+  box-shadow: rgba(243, 110, 2, 0.25) 0px 30px 60px 12px inset,
+    rgba(255, 95, 2, 0.3) 12px 18px 50px 10px inset;
 }
 
-.our-menu .cart img{
-height: 100px;
-width: 100px;
-object-fit: cover;
-border-radius: 50%;
-
+.our-menu .cart img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
-.our-menu .cart h2{
-color: white;
-margin: 20px;
-
+.our-menu .cart h2 {
+  color: white;
+  margin: 20px;
 }
-.our-menu .cart h2 strike{
+.our-menu .cart h2 strike {
   margin-left: 16px;
   font-weight: 100;
-
 }
-.our-menu .cart a{
-
+.our-menu .cart a {
   color: var(--simple--color);
   text-decoration: none;
   padding: 10px 20px;
   font-size: 22px;
   background-color: var(--spacial-color);
-border-radius: 8px;
-transition: 200ms;
+  border-radius: 8px;
+  transition: 200ms;
 }
-.our-menu .cart a:hover{
-background-color: transparent;
-color: var(--spacial-color);
-border: 1px solid orange;
-box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px, rgba(247, 115, 7, 0.23) 0px 6px 6px;
-
+.our-menu .cart a:hover {
+  background-color: transparent;
+  color: var(--spacial-color);
+  border: 1px solid orange;
+  box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px,
+    rgba(247, 115, 7, 0.23) 0px 6px 6px;
 }
-main .latest-project{
+main .product {
+  margin: 0 8%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+main .latest-project {
   margin-top: 60px;
-  border:  1px solid rgba(255, 255, 255, 0.418);
+  border: 1px solid rgba(255, 255, 255, 0.418);
   height: 360px;
   width: 200px;
   padding: 30px;
@@ -239,43 +224,51 @@ main .latest-project{
   align-items: center;
   text-align: center;
   border-radius: 8px;
+  transition: 500ms;
 }
-main .latest-project img{
-
-height: 250px;
-
+main .latest-project:hover {
+  box-shadow: rgba(243, 110, 2, 0.25) 0px 30px 60px 12px inset,
+    rgba(255, 95, 2, 0.3) 12px 18px 50px 10px inset;
+  transform: scale(0.9);
 }
-.latest-project .project .icon{
-color: var(--simple--color);
-display: flex;
-gap: 10px;
-justify-content: center;
-
+main .latest-project img {
+  height: 250px;
 }
-.latest-project .project .icon i{
+.latest-project .project .icon {
+  color: var(--simple--color);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.latest-project .project .icon i {
   border: 1px solid rgba(255, 255, 255, 0.651);
   padding: 10px;
-font-size: 20px;
-
+  font-size: 20px;
+  transition: 400ms;
 }
-.latest-project .project .nascafe h2{
-color: var(--simple--color);
-letter-spacing: 1px;
-
+.latest-project .project .icon i:hover {
+  color: var(--spacial-color);
+  /* border: 1px solid orange; */
+  border: none;
+  transform: scale(0.9);
+  box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px,
+    rgba(247, 115, 7, 0.23) 0px 6px 6px;
 }
-.latest-project .project .nascafe .star{
-color: var(--simple--color);
-margin-top: 10px;
-color: var(--spacial-color);
-
+.latest-project .project .nascafe h2 {
+  color: var(--simple--color);
+  letter-spacing: 1px;
 }
-.latest-project .project .nascafe h3{
+.latest-project .project .nascafe .star {
+  color: var(--simple--color);
+  margin-top: 10px;
+  color: var(--spacial-color);
+}
+.latest-project .project .nascafe h3 {
   color: var(--simple--color);
   margin-top: 10px;
   letter-spacing: 2px;
 }
-.latest-project .project .nascafe h3 strike{
-font-weight: 100;
-margin-left: 20px;
-
+.latest-project .project .nascafe h3 strike {
+  font-weight: 100;
+  margin-left: 20px;
 }
