@@ -1,0 +1,143 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+
+}
+
+
+header {
+    background-color: var(--simple--color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 4px 50px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  
+  header .logo {
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 60px;
+  }
+  
+  header .logo hr {
+    width: 100px;
+  }
+  
+  header .logo .simply {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  header .logo .simply span {
+    font-size: 30px;
+  }
+  
+  header .logo .simply .construction {
+    font-size: 20px;
+    letter-spacing: 0.5PX;
+  }
+  
+  nav {
+    display: flex;
+    min-height: 70px;
+    height: 100%;
+    gap: 20px;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a:nth-child(4),
+  nav a:nth-child(5),
+  nav a:nth-child(6) {
+    position: relative;
+  }
+  
+  nav a:hover {
+    color: var(--spacial-color);
+  }
+  
+  nav a ul li {
+    list-style-type: none;
+    color: var(--black-color);
+    padding: 16px;
+    border-bottom: 0.5px solid gray;
+    /* transition: 300ms; */
+  }
+  
+  nav a ul li:hover {
+    color: var(--spacial-color);
+  }
+  
+  nav a ul {
+    background-color: var(--simple--color);
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    visibility: hidden;
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  
+  nav a:nth-child(4):hover ul {
+    visibility: visible;
+    transition: all 300ms;
+  }
+  
+  nav a:nth-child(5):hover ul {
+    visibility: visible;
+    transition: all 300ms;
+  }
+  
+  nav a:nth-child(6):hover ul {
+    visibility: visible;
+    transition: all 300ms;
+  }
+  
+  nav a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .search-bar input {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    width: 200px;
+  }
+  
+  .search-bar {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+.hero-section{
+
+background-image: url(images/service.jpg);
+height: 500px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
