@@ -1,215 +1,332 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    
-    
-    }
-    
-    :root {
-      --spacial-color: rgb(255, 217, 0);
-      --secondary-color: rgb(97, 97, 97);
-      --primary-color: blue;
-      --danger-color: red;
-      --black-color: black;
-      --simple--color: white;
-    }
-    
-    .contact {
-      background-color: black;
-      display: flex;
-      justify-content: space-between;
-      color: white;
-      font-style: oblique;
-      letter-spacing: 3px;
-      align-items: center;
-      height: 50px;
-    }
-    
-    .contact .call {
-      margin-left: 60px;
-    }
-    
-    .contact .login {
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      margin-left: 150px;
-    }
-    
-    
-    .contact .login span a {
-      color: white;
-      text-decoration: none;
-    }
-    
-    .contact button {
-      margin-right: 80px;
-      background-color: var(--spacial-color);
-      font-family: "Poppins", serif;
-      height: 50px;
-      width: 160px;
-    }
-    
-    .contact button a {
-      color: var(--black-color);
-      text-decoration: none;
-      font-size: 22px;
-      transition: 300ms;
-    }
-    
-    .contact button:hover {
-      background-color: transparent;
-      border: 1px solid yellow;
-    }
-    
-    .contact button:hover a {
-      color: var(--spacial-color);
-    }
-    
-    header {
-        background-color: var(--simple--color);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      
-        padding: 4px 50px;
-        position: sticky;
-        width: 100%;
-        top: 0;
-        z-index: 1;
-      }
-      
-      header .logo {
-      
-        display: flex;
-        align-items: center;
-      }
-      
-      header .logo img {
-        height: 60px;
-      }
-      
-      header .logo hr {
-        width: 100px;
-      }
-      
-      header .logo .simply {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-      }
-      
-      header .logo .simply span {
-        font-size: 30px;
-      }
-      
-      header .logo .simply .construction {
-        font-size: 20px;
-        letter-spacing: 0.5PX;
-      }
-      
-      nav {
-        display: flex;
-        min-height: 70px;
-        height: 100%;
-        gap: 20px;
-      }
-      
-      nav a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      nav a:nth-child(4),
-      nav a:nth-child(5),
-      nav a:nth-child(6) {
-        position: relative;
-      }
-      
-      nav a:hover {
-        color: var(--spacial-color);
-      }
-      
-      nav a ul li {
-        list-style-type: none;
-        color: var(--black-color);
-        padding: 16px;
-        border-bottom: 0.5px solid gray;
-        /* transition: 300ms; */
-      }
-      
-      nav a ul li:hover {
-        color: var(--spacial-color);
-      }
-      
-      nav a ul {
-        background-color: var(--simple--color);
-        position: absolute;
-        width: 200px;
-        text-align: center;
-        visibility: hidden;
-        top: 100%;
-        left: 50%;
-        z-index: 1;
-        transform: translateX(-50%);
-      }
-      
-      nav a:nth-child(4):hover ul {
-        visibility: visible;
-        transition: all 300ms;
-      }
-      
-      nav a:nth-child(5):hover ul {
-        visibility: visible;
-        transition: all 300ms;
-      }
-      
-      nav a:nth-child(6):hover ul {
-        visibility: visible;
-        transition: all 300ms;
-      }
-      
-      nav a {
-        color: var(--black-color);
-        text-decoration: none;
-        font-size: 18px;
-      }
-      
-      .search-bar input {
-        font-size: 20px;
-        outline: none;
-        border: none;
-        width: 200px;
-      }
-      .search-bar i{
-    
-    /* font-size: 24px; */
-    color: black;
-      }
-      .search-bar {
-        border: 1px solid black;
-        padding: 10px;
-      }
+:root {
+  --spacial-color: rgb(255, 217, 0);
+  --secondary-color: rgb(97, 97, 97);
+  --primary-color: blue;
+  --danger-color: red;
+  --black-color: black;
+  --simple--color: white;
+}
 
-      .hero-section{
+.contact {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-style: oblique;
+  letter-spacing: 3px;
+  align-items: center;
+  height: 50px;
+}
 
-        background-image: url(images/volvo\ 2.jpg);
-          /* height: 500px; */
-        width: 57.7%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: center;
-          display: flex;
-          text-align: center;
-        justify-content: center;
-        /* flex-direction: column; */
-        
-        }
-        
-        .hero-section button{
-        font-size: 20px;
-        
-        
-        }
+.contact .call {
+  margin-left: 60px;
+}
+
+.contact .login {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 150px;
+}
+
+.contact .login span a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact button {
+  margin-right: 80px;
+  background-color: var(--spacial-color);
+  font-family: "Poppins", serif;
+  height: 50px;
+  width: 160px;
+}
+
+.contact button a {
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: 22px;
+  transition: 300ms;
+}
+
+.contact button:hover {
+  background-color: transparent;
+  border: 1px solid yellow;
+}
+
+.contact button:hover a {
+  color: var(--spacial-color);
+}
+
+header {
+  background-color: var(--simple--color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 4px 50px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 60px;
+}
+
+header .logo hr {
+  width: 100px;
+}
+
+header .logo .simply {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+header .logo .simply span {
+  font-size: 30px;
+}
+
+header .logo .simply .construction {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  display: flex;
+  min-height: 70px;
+  height: 100%;
+  gap: 20px;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a:nth-child(4),
+nav a:nth-child(5),
+nav a:nth-child(6) {
+  position: relative;
+}
+
+nav a:hover {
+  color: var(--spacial-color);
+}
+
+nav a ul li {
+  list-style-type: none;
+  color: var(--black-color);
+  padding: 16px;
+  border-bottom: 0.5px solid gray;
+  /* transition: 300ms; */
+}
+
+nav a ul li:hover {
+  color: var(--spacial-color);
+}
+
+nav a ul {
+  background-color: var(--simple--color);
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  visibility: hidden;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+nav a:nth-child(4):hover ul {
+  visibility: visible;
+  transition: all 300ms;
+}
+
+nav a:nth-child(5):hover ul {
+  visibility: visible;
+  transition: all 300ms;
+}
+
+nav a:nth-child(6):hover ul {
+  visibility: visible;
+  transition: all 300ms;
+}
+
+nav a {
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.search-bar input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  width: 200px;
+}
+.search-bar i {
+  /* font-size: 24px; */
+  color: black;
+}
+.search-bar {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.hero-section {
+  background-image: url(images/contact1.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section a {
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 300ms;
+  color: var(--black-color);
+  margin-top: 20%;
+  padding: 12px 18px;
+  background-color: var(--spacial-color);
+  border: 2px solid var(--spacial-color);
+  border-radius: 6px;
+}
+
+.hero-section a:hover {
+  background: transparent;
+  border: 2px solid var(--spacial-color);
+  color: var(--spacial-color);
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+  background-color: rgb(0, 32, 31);
+  color: var(--simple--color);
+}
+
+.address .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.address .info h4 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.address .info i {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px 12px;
+  font-size: 20px;
+  transition: all 300ms;
+}
+
+.address .info i:hover {
+  border: 2px solid rgb(255, 208, 0);
+  background-color: var(--spacial-color);
+}
+
+.contact-us {
+  margin-top: 80px;
+}
+
+.contact-us h1 span {
+  /* font-size: 14px; */
+  margin-left: 16px;
+  color: var(--spacial-color);
+}
+
+.contact-us h1 {
+  text-align: center;
+}
+.contact-us p {
+  margin-top: 16px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  color: var(--secondary-color);
+  text-align: center;
+  width: 50%;
+  display: flex;
+  justify-self: center;
+  margin-bottom: 50px;
+}
+
+main .card {
+  background-color: aquamarine;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+ 
+
+main .card1 {
+  height: 400px;  
+  width: 900px;
+  background-size: cover;
+  background-color: black;
+  background-image: url(images/contruction.webp);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+
+}
+main .card1 form a{
+ text-decoration: none;
+ padding: 10px 130px;
+ border: 2px solid orange;
+ background-color: orange;
+ border-radius: 50px;
+ color: var(--simple--color);
+ font-size: 20px;
+ margin-right: 100px;
+
+}
+main .card1 form h1{
+color: white;
+font-weight: 800;
+
+
+
+}
+main .card1 form label{
+color: var(--simple--color);
+font-size: 24px;
+font-weight: 800;
+}
+main .card1 form input{
+height: 38px;
+width: 320px;
+margin-bottom: 20px;
+border: none;
+outline: none;
+
+
+}
+
+ 
