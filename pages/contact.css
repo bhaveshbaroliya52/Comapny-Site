@@ -193,8 +193,10 @@ nav a {
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .hero-section a {
@@ -202,7 +204,7 @@ nav a {
   text-decoration: none;
   transition: all 300ms;
   color: var(--black-color);
-  margin-top: 20%;
+  /* margin-top: 20%; */
   padding: 12px 18px;
   background-color: var(--spacial-color);
   border: 2px solid var(--spacial-color);
@@ -215,10 +217,9 @@ nav a {
   color: var(--spacial-color);
 }
 
-.address {
+footer .address {
   display: flex;
   justify-content: space-around;
-  margin-top: 90px;
   background-color: rgb(0, 32, 31);
   color: var(--simple--color);
 }
@@ -248,6 +249,73 @@ nav a {
   background-color: var(--spacial-color);
 }
 
+footer .about-contruction {
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+  align-items: center;
+  padding: 0 90px;
+}
+
+footer .about-contruction #about h1 {
+  margin-bottom: 30px;
+}
+
+footer .about-contruction #about {
+  max-width: 30%;
+}
+
+.about-contruction .ABOUT p {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+footer .about-contruction .ABOUT {
+  max-width: 20%;
+}
+
+footer .about-contruction .ABOUT h1 {
+  margin-left: 14px;
+  margin-bottom: 20px;
+}
+
+footer .about-contruction .ABOUT img {
+  height: 50px;
+  width: 100px;
+  margin: 4px;
+  object-fit: cover;
+}
+
+.about-contruction .ABOUT .service2 {
+  display: flex;
+}
+
+.about-contruction .ABOUT .service2 li a {
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.about-contruction .ABOUT .service2 li {
+  list-style: none;
+  margin: 14px;
+}
+
+.about-contruction {
+  background-color: rgba(0, 32, 31, 0.918);
+  color: var(--simple--color);
+}
+
+footer .Reserved {
+  background-color: var(--spacial-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
 .contact-us {
   margin-top: 80px;
 }
@@ -274,58 +342,87 @@ nav a {
 }
 
 main .card {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 580px;
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
-
-}
- 
-
-main .card1 {
-  height: 400px;  
-  width: 900px;
-  background-size: cover;
-  background-color: black;
   background-image: url(images/contruction.webp);
   background-repeat: no-repeat;
-  border-radius: 16px;
-  align-items: center;
-  display: flex;
-  justify-content: end;
+  background-size: cover;
+
 
 }
-main .card1 form a{
- text-decoration: none;
- padding: 10px 130px;
+main .card .box{
+display: flex;
+height: 370px;  
+width: 830px;
+background-size: cover;
+/* background-color: black; */
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+border: 10px solid black;
+
+}
+main .card2 img{
+height: 360px;
+width: 400px;
+background-size: cover;
+object-fit: cover;
+margin-top: 4px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+main .card1 {
+padding:0 50px;
+ background-color: black;
+}
+main .card1 form button{
+ padding: 4px 40px;
  border: 2px solid orange;
  background-color: orange;
  border-radius: 50px;
  color: var(--simple--color);
- font-size: 20px;
- margin-right: 100px;
+ font-size: 24px;
+ /* margin-right: 100px; */
+ transition: 300ms;
+ margin-bottom: 10px;
+}
+main .card1 form button:hover{
+background-color: rgb(33, 173, 33);
+border: 2px solid rgb(33, 173, 33);
+cursor: pointer;
+
+
 
 }
 main .card1 form h1{
 color: white;
 font-weight: 800;
-
+color: orange;
+ 
 
 
 }
+ 
 main .card1 form label{
 color: var(--simple--color);
-font-size: 24px;
+font-size: 20px;
 font-weight: 800;
 }
 main .card1 form input{
 height: 38px;
 width: 320px;
+padding: 0 10px;
 margin-bottom: 20px;
 border: none;
 outline: none;
-
+background-size: cover;
+background-position:bottom;
+font-size: 16px;
+/* color: white; */
 
 }
 
